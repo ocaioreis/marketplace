@@ -163,14 +163,3 @@ marketplace-api/
         ├── users.js            # /users + /stores
         └── products.js         # /products + /orders + /categories
 ```
-
-## Próximos passos sugeridos
-
-| Feature | O que adicionar |
-|---|---|
-| Banco de dados | Prisma + PostgreSQL em `src/db/` |
-| Autenticação | JWT middleware em `src/middleware/auth.js` |
-| Validação | Zod schemas por entidade |
-| Paginação | `?page=1&limit=20` nos GETs de lista |
-| Upload de imagens | Multer + S3/Cloudflare R2 |
-| Testes | Jest + Supertest |
