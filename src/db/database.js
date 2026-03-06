@@ -1,5 +1,5 @@
 // ============================================================
-//  db/database.js — In-memory store (substitua por Postgres/ORM)
+//  db/database.js — In-memory store (podendo ser substituído por Postgres/ORM futuramente)
 // ============================================================
 const { randomUUID } = require("crypto");
 
