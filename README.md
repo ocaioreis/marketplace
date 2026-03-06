@@ -1,7 +1,6 @@
-# 🛒 Marketplace API
+# Marketplace API
 
 API REST para marketplace, construída em **Node.js puro** (sem dependências).  
-Dados em memória — troque `src/db/database.js` por Postgres/Prisma em produção.
 
 ## Início rápido
 
@@ -14,7 +13,7 @@ node server.js
 
 ## Endpoints
 
-### 🔍 Saúde & Index
+### Saúde & Index
 ```bash
 curl http://localhost:3000/health
 curl http://localhost:3000/
@@ -22,7 +21,7 @@ curl http://localhost:3000/
 
 ---
 
-### 👤 Usuários `/users`
+### Usuários `/users`
 ```bash
 # Listar todos
 curl http://localhost:3000/users
@@ -46,7 +45,7 @@ curl -X DELETE http://localhost:3000/users/u2
 
 ---
 
-### 🏪 Lojas `/stores`
+### Lojas `/stores`
 ```bash
 # Listar todas
 curl http://localhost:3000/stores
@@ -65,7 +64,7 @@ curl -X POST http://localhost:3000/stores \
 
 ---
 
-### 📦 Produtos `/products`
+### Produtos `/products`
 ```bash
 # Listar (com filtros opcionais)
 curl "http://localhost:3000/products"
@@ -92,7 +91,7 @@ curl -X DELETE http://localhost:3000/products/p2
 
 ---
 
-### ⭐ Reviews `/products/:id/reviews`
+### Reviews `/products/:id/reviews`
 ```bash
 # Listar reviews de um produto
 curl http://localhost:3000/products/p1/reviews
@@ -105,7 +104,7 @@ curl -X POST http://localhost:3000/products/p1/reviews \
 
 ---
 
-### 🧾 Pedidos `/orders`
+### Pedidos `/orders`
 ```bash
 # Listar todos
 curl http://localhost:3000/orders
@@ -133,7 +132,7 @@ curl -X PUT http://localhost:3000/orders/o1/status \
 
 ---
 
-### 🗂️ Categorias `/categories`
+### Categorias `/categories`
 ```bash
 # Listar todas
 curl http://localhost:3000/categories
